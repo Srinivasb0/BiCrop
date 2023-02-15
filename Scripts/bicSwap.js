@@ -12,6 +12,12 @@ const bicSwapABI = [
   ]
 const bicTokSwap = "0x6D4d1563AFBb4509f42c3b718B71675275C7C410";
 
-const signercontract = new ethers.Contract(bicTokSwap, bicSwapABI, signer);
-const singlswap = signercontract.swapExactInputSingle("100000000000000000");
-console.log("Single swap succeded");
+
+// call methods
+async function main() {
+    const signercontract = new ethers.Contract(bicTokSwap, bicSwapABI, signer);
+    const singlswap = await signercontract.swapExactInputSingle("100000000000000000");
+    console.log(singlswap);
+}
+
+main();
