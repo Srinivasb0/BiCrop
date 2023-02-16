@@ -37,6 +37,16 @@ totalSupply : 100000000000000000000000
 
 
 
+/* INFURA
+Optimism : https://github.com/truffle-box/optimism-box
+
+
+
+/* Chain Link
+
+LINK/USD : 0x48731cF7e84dc94C5f84577882c14Be11a5B7456
+Price Feed Address : 0x785c15EA822C8EF2dB57549f8F3cce7C0BF3e18b
+
 
 
 

@@ -19,7 +19,9 @@
   "homepage": "https://github.com/Srinivasb0/BiCrop#readme",
   "description": "",
   "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
     "dotenv": "^16.0.3",
-    "ethers": "5.4"
+    "ethers": "5.4",
+    "node-fetch": "^3.3.0"
   }
 }
