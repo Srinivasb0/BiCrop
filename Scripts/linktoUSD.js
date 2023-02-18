@@ -1,3 +1,5 @@
+import fs from 'fs';
+import fetch from "node-fetch";
 import ethers  from "ethers";
 import dotenv from "dotenv";
 
@@ -20,6 +22,7 @@ async function priceFeed() {
     const price = parseInt(latestPrice['_hex'],16)+1;
     const LinktoUSD = price / 100000000 // ;
     console.log("The Latest price of 1 Link is" , LinktoUSD, "USD");
+    return LinktoUSD;
 }
 
-priceFeed();
+export default  priceFeed;

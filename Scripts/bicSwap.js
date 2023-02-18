@@ -27,7 +27,7 @@ async function main() {
     const amountOut = "1000000000000000000";
     // 10 Link tokens
     const amountInMaximum = "10000000000000000000";
-    const exactOutput = await signercontract.swapExactOutputSingle("100000000000000000", amountInMaximum)
+    const exactOutput = await signercontract.swapExactOutputSingle("100000000000000000", amountInMaximum);
     console.log(exactOutput);
 }
 
