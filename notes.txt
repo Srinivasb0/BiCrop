@@ -39,6 +39,9 @@ totalSupply : 100000000000000000000000
 
 /* INFURA
 Optimism : https://github.com/truffle-box/optimism-box
+Storage : 0x79d9f6c77221799C02c425061Bb832801B5b4420
+BicropToken : 0x0A265408c0d00F616CFC8b0294f83Fb2b0083438
+
 
 
 
@@ -48,6 +51,8 @@ LINK/USD : 0x48731cF7e84dc94C5f84577882c14Be11a5B7456
 Price Feed Address : 0x785c15EA822C8EF2dB57549f8F3cce7C0BF3e18b
 
 Fetch from Array : 0x58CB34545F79c8D1DD39942F7b0E342dD2A6C022
+Automation Upkeep Address : 0xf930b5729C38E423b77c5CEde621cbBf791f2932
+https://docs.chain.link/chainlink-automation/flexible-upkeeps/
 
 
 

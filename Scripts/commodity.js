@@ -13,8 +13,6 @@ var access_key = 'lq98djv5r050inmagtp1ne3e5cegmdi333e7z4i6209co5utj1lp84pt2ydo'
 async function commodityPrice() {
     var url = 'https://commodities-api.com/api/'+endpoint+'?access_key='+access_key+'&base='+base_currency+'&symbols='+symbol
 	var data = await fetch(url).then(response => response.json());
-
-    
     
     // price in cwt (1 / price)
     var price = Math.round(1 / data['data']['rates'][symbol]);
