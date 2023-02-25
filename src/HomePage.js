@@ -146,10 +146,10 @@ const bicSwapABI = [
   "function swapExactInputSingle(uint)",
   "function swapExactOutputSingle(uint, uint)",
 ]
-const bicTokSwap = "0x6D4d1563AFBb4509f42c3b718B71675275C7C410";
+const bicTokSwap = "xxxxxxx";
 const network = "goerli";
-const provider = new ethers.providers.InfuraProvider(network,"c05e61a31c6e4a2ca64715ac31ff7720");
-const signer = new ethers.Wallet("b48af849489ff8d312d0147eb40d7015727bacdf3e916be9c9754b25da1c5f44", provider);
+const provider = new ethers.providers.InfuraProvider(network,"xxxxxxx");
+const signer = new ethers.Wallet("xxxxxxxxxx", provider);
 const signercontract = new ethers.Contract(bicTokSwap, bicSwapABI, signer);
 console.log(signercontract)
 const bicABI = [
@@ -162,7 +162,7 @@ const providercontract = new ethers.Contract(bicTok, bicABI, provider);
 
 var base_currency = 'USD'
 var endpoint = 'latest'
-var access_key = 'u31rm876qr0fg817bbnac6htoef9u99tg780n3e2i4fhmmc3w6zqwp3286q6'
+var access_key = 'xxxxxxx'
 
 const HomePage = () => {
 
